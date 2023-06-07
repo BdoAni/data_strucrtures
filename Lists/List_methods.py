@@ -1,4 +1,8 @@
 # len(): Returns the length of an object
+# Lists are:
+# mutable can change “in place”, 
+# iterable can return its members one at a time, 
+# ordered can return its members one at a time
 def python_methods():
     my_list=[1,2,3,4,5,6,7,8]
     print(len(my_list))
@@ -67,5 +71,13 @@ print(joined_string)  # Output: 'Hello World'
 my_list = [1, 2, 3, 4, 5]
 joined_string = ','.join(str(element) for element in my_list)
 print(joined_string) 
+
+# Range 
+for number in range(5):
+    print(f"{number} is my favorite number")
+# range(start, stop, step)
+list(range(2, 8))
+[2, 3, 4, 5, 6, 7]
+
 # //#
 # https://docs.python.org/3/tutorial/datastructures.html
